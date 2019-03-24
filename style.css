@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+	background-image:url(Home/back.png);
+
+
+	background-color:#fff;
+}
+.day {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+	background-image:url(Home/back.png);
+	background-color:#fff;
+}
+.night {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+	background-image:url(Home/backNata.png);
+	background-color:#fff;
+}
+#container {
+	width:100%;
+	margin:0px;
+	
+}
+
+header {
+	text-align:center;
+	position:relative;
+}
+.menu {
+	width:100%;
+	height:40px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-color:#fff;
+	box-shadow: -1px 0px 9px 0px rgba(0,0,0,075);
+	z-index:9999;
+	text-align:center;
+}
+.innermenu {
+}
+
+.menu a {
+	text-decoration: none;
+	top: 8px;
+	padding: 30px; 
+	color: #4d5255;
+	position: relative;
+	display: inline;
+	text-align:center;
+	}
+		/*Kjo eshte ngjyra permi menu kur te shkon mausi*/
+.menu :hover{
+	color: #009ddb;
+	}
+	
+	.main {
+	
+	    background-repeat: no-repeat;
+	
+		width:100%;
+		height:150px;
+  
+        background-position: center center;
+    	margin: 8px auto 0px auto;
+   		 position: relative;
+   		 z-index: 1;
+
+}
+#slideshow { 
+	margin-top: 32px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+    position: relative; 
+    width: 1050px; 
+    height: 472px; 
+	
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	transition-duration:1s;
+	
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+.slajdet {
+	margin:15px auto auto auto;
+	position:relative;
+	width:1060px;
+	height:180px;
+	border:0px solid black;
+}
+
+#slideshow1 { 
+
+	margin:auto auto auto auto;
+    position: relative; 
+    width: 350px; 
+    height: 180px; 
+	border:0px solid black;
+	float:left;
+	
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#slideshow2 { 
+	margin:auto auto auto 2px;
+    position: relative; 
+    width: 350px; 
+    height: 180px; 
+	border:0px solid black;
+	float:left;
+	
+	
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#slideshow3 { 
+	margin:auto 6px auto auto;
+    position: relative; 
+    width: 350px; 
+    height: 180px; 
+	border:0px solid black;
+	float:right;
+	
+	
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+ 
+.slajdetbrenda {
+	margin:auto auto auto auto;
+  width: 230px;
+  height: 150px;
+  float: left;
+  transition-duration:1s;
+  -webkit-transition:1s;
+  -moz-transition:1s; 
+    -o-transition:1s;
+    -ms-transition:1s;
+
+  
+  background-size: cover;
+  position: relative;
+  opacity:0.7;
+}
+.slajdetbrenda:hover {
+	
+
+	
+	transform:translate(2px,2px);
+	-webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+	opacity:1;
+		
+
+}
+
+h2 {
+  position: absolute;
+  bottom: -15px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+  font: 14px Sans-Serif;
+}
+
+
+
+
+	
+/*Ky eshte stajli per footeri e webfaqes*/
+	
+	footer {
+		background-image:url(Home/footer1.jpg);
+	padding-top:46px;
+	height:171px;
+	position:relative;
+   bottom:0;
+   margin:20px auto auto auto;
+   box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  width:100%;
+   text-align:center;
+   
+}
+.fDjathtas
+{
+	text-align:left;
+	position:relative;
+}
+.fDjathtas ul {
+	list-style-image:url(Home/List.gif);
+	margin:-10px auto auto 45px;
+	font-size:20px;
+}
+#fMajtas {
+	text-align:center;
+	position:relative;
+	font-size:17px;
+	padding-top:125px;
+
+	
+}
+
+
+
+
+

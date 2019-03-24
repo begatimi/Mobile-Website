@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+}
+
+#container {
+	width:100%;
+	margin:0px;
+	
+}
+
+header {
+	text-align:center;
+	position:relative;
+}
+.menu {
+	width:100%;
+	height:40px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-color:#fff;
+	box-shadow: -1px 0px 9px 0px rgba(0,0,0,075);
+	z-index:9999;
+	text-align:center;
+}
+
+.menu a {
+	text-decoration: none;
+	top: 8px;
+	padding: 30px; 
+	color: #4d5255;
+	position: relative;
+	display: inline;
+	text-align:center;
+	}
+		/*Kjo eshte ngjyra permi menu kur te shkon mausi*/
+.menu :hover{
+	color: #009ddb;
+	}
+	
+	.main {
+	
+	    background-repeat: no-repeat;
+		background-image:url(htc-one-a9-group.png);
+		width:100%;
+		height:1080px;
+  
+    background-position: center center;
+    margin: 8px auto 0px auto;
+    position: relative;
+    z-index: 1;
+	opacity:0.8;
+	  transition-duration:1s;
+  -webkit-transition:1s;
+  -moz-transition:1s; 
+    -o-transition:1s;
+    -ms-transition:1s;
+
+}
+
+.htc {
+	margin:auto auto auto auto;
+	width:100%;
+	height:1080px;
+	 background-position: center center;
+	background-image:url(htc_one_flat_by_alexjmiller-d608a0f.png);
+	
+}
+
+#htc {
+	margin:auto auto auto auto;
+	padding-top:300px;
+	text-align:left;
+	width:920px;
+	height:auto;
+
+	
+}
+
+#htc2 {
+	margin:-700px auto auto auto;
+	padding-top:300px;
+	text-align:right;
+	width:920px;
+	height:auto;
+
+	
+}
+.htc1 {
+	margin:auto auto auto auto;
+	width:100%;
+	height:1080px;
+	 background-position: center center;
+	background-image:url(Untitled-2.jpg);
+}
+
+#htc3 {
+	margin:auto auto auto auto;
+	padding-top:300px;
+	text-align:left;
+	width:920px;
+	height:auto;
+
+	
+}
+
+#htc4 {
+	margin:-650px auto auto auto;
+	padding-top:300px;
+	text-align:right;
+	width:920px;
+	height:auto;
+
+	
+}
+#panel, #flip {
+		height:35px;
+	width:auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #A5D2D8;
+    
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+	height:440px;
+	width:auto;
+}
+.brendaP {
+	margin:auto;
+	width:920px;
+	height:auto;
+	position:relative;
+}
+	
+	#ndegjuse {
+	margin:auto;
+	position:relative;
+	height:auto;
+	width:auto;
+	
+	
+}
+#wireles {
+	margin:auto;
+	position:relative;
+	height:auto;
+	width:auto;
+	
+	
+}
+#tjera {
+	margin:auto;
+	position:relative;
+	height:auto;
+	width:auto;
+	
+	
+}
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:0px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	opacity:0.7;
+	top:600px;
+	transition-duration:1s;
+	right:-5px;
+	display:none;
+	background:url(../Home/butoniST1.png) no-repeat 0px 20px;
+	z-index:99999;
+	clear:both;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+	transition-duration:1s;
+	opacity:1;
+}
+	footer {
+	background-color:#CCC;
+	padding-top:20px;
+	height:150px;
+	position:relative;
+   bottom:0;
+   margin-top:-65px;
+   width:100%;
+   text-align:center;
+   
+}
+#fMajtas {
+	text-align:left;
+	position:relative;
+	margin-top:-20px;
+	margin-left:40px;
+	color:black;
+}
+
+	.fSocial {
+		float:right;
+		margin-top:-5px;
+		text-align:right;
+		margin-right:40px;
+		
+		
+	}
+	.fSocial li {
+		display:inline;
+		padding:10px;
+	}
+	.fSocial span {
+		margin-top:-20px;
+	}

@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#CCC;
+	margin:0;
+	padding:0;
+	font-family:corbel;
+}
+
+#container {
+	width:100%;
+	margin:0px;
+	
+}
+
+header {
+	text-align:center;
+	position:relative;
+}
+.menu {
+	width:100%;
+	height:40px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-color:#fff;
+	box-shadow: -1px 0px 9px 0px rgba(0,0,0,075);
+	z-index:9999;
+	text-align:center;
+	
+}
+
+.menu a {
+	text-decoration: none;
+	top: 8px;
+	padding: 30px; 
+	color: #4d5255;
+	position: relative;
+	display: inline;
+	text-align:center;
+	}
+		/*Kjo eshte ngjyra permi menu kur te shkon mausi*/
+.menu :hover{
+	color: #009ddb;
+	}
+	
+	.main {
+	 background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+	text-align:center;
+	height:135px;
+	background: green; /* Per browsera qe nuk i mbeshtesin gradient */
+    background: -webkit-linear-gradient(#0C9, #399); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0C9, #399); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0C9, #399); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0C9, #399red, yellow); /* Standard syntax (must be last) */	
+	padding:15px;
+}
+
+	.sam {
+		position:relative;
+		width:920px;
+		height:650px;
+		text-align:center;
+		
+		background-image:url(s6edgeee.png);
+		background-repeat:no-repeat;
+		background-position:left;
+		-ms-transform: translate(20px,40px);/*IE 9*/
+		-webkit-transform:translate(10px,10px);/*Safari*/
+		transform:(10px,10px);
+		  transition-duration:1s;
+  -webkit-transition:1s;
+  -moz-transition:1s; 
+    -o-transition:1s;
+    -ms-transition:1s;
+		
+
+		margin:auto;
+		clear:both;
+	}
+	.sam:hover {
+		transform:translate(2px,2px);
+	-webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+	}
+	
+	#txt {
+		text-align:right;
+		margin:auto  45px auto auto;
+		
+	}
+		
+	.sam2 {
+		clear:both;
+				background-position:right top;
+		position:relative;
+		width:920px;
+		height:650px;
+		-ms-transform: rotate(-1deg); /* IE 9 */
+    	-webkit-transform: rotate(-1deg); /* Safari */
+		transform:rotate(0deg);
+		  transition-duration:1s;
+  -webkit-transition:1s;
+  -moz-transition:1s; 
+    -o-transition:1s;
+    -ms-transition:1s;
+		
+
+		text-align:center;
+	
+		background-image:url(Untitled-4.png);
+		background-repeat:no-repeat;
+		margin:auto;
+	}
+	.sam2:hover {
+		transform:translate(5px,5px);
+	-webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+	}
+	#txt2 {
+		text-align:left;
+		margin:auto  auto auto 45px ;
+	}
+	
+	.sam3 {
+		position:relative;
+		width:920px;
+		height:400px;
+		text-align:center;
+		
+		background-image:url(buy-now_banner_galaxy-note5.png);
+		background-repeat:no-repeat;
+		background-position:left;
+		-webkit-transition: width 1s; /* Safari */
+    	-webkit-transition-delay: 1s; /* Safari */
+		transition:width 1s;
+		transition-delay:1s;
+		
+
+    
+		
+		
+	
+		margin:-280px auto auto auto;
+		clear:both;
+	}
+	.sam3:hover {
+		width:720px;
+		
+	}
+	
+	#txt3 {
+		text-align:right;
+		font-size:24px;
+		font-family:FontiIm;
+		
+		margin:290px  100px auto auto;
+	}
+	#panel, #flip {
+		height:35px;
+	width:auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #CCC;
+    border: solid 1px #999;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+	height:250px;
+	width:auto;
+}
+.brendaP {
+	margin:auto;
+	width:920px;
+	height:auto;
+	position:relative;
+}
+#ndegjuse {
+	margin:auto;
+	position:relative;
+	height:auto;
+	width:auto;
+	
+	
+}
+#wireles {
+	margin:auto;
+	position:relative;
+	height:auto;
+	width:auto;
+	
+	
+}
+#tjera {
+	margin:auto;
+	position:relative;
+	height:auto;
+	width:auto;
+	
+	
+}
+
+
+	
+	#fMajtas {
+	text-align:left;
+	position:relative;
+	margin-top:-20px;
+	margin-left:40px;
+	color:black;
+	word-wrap:break-word;
+}
+
+	.fSocial {
+		float:right;
+		margin-top:-5px;
+		text-align:right;
+		margin-right:40px;
+		border:0px solid black;
+		outline:1px solid Black;
+		outline-offset:10px;
+		
+		
+	}
+	.fSocial li {
+		display:inline;
+		padding:10px;
+	}
+	.fSocial span {
+		margin-top:-20px;
+	}
+	
+	.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:0px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	opacity:0.7;
+	top:600px;
+	right:-5px;
+	display:none;
+	background:url(../Home/butoniST1.png) no-repeat 0px 20px;
+	z-index:99999;
+	clear:both;
+	transition-duration:1s;
+	
+}
+.scrollToTop:hover{
+	text-decoration:none;
+	opacity:1;
+	transition-duration:1s;
+
+}
+
+	
+	footer {
+ background: green;  /* Per browsera qe nuk i mbeshtesin gradient */
+  background: -webkit-radial-gradient(#096, #6CC, #0C9); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#096, #6CC, #0C9); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#096, #6CC, #0C9); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#366, #397 150%,#396); /* Standard syntax */
+	padding-top:20px;
+	height:225px;
+	position:relative;
+   bottom:0;
+   margin-top:-65px;
+   width:100%;
+   text-align:center;
+   
+}

@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+	background-image:url(../Home/back.png);
+}
+
+#container {
+	width:100%;
+	margin:0px;
+	
+}
+
+header {
+	text-align:center;
+	position:relative;
+}
+.menu {
+	width:100%;
+	height:40px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-color:#fff;
+	box-shadow: -1px 0px 9px 0px rgba(0,0,0,075);
+	z-index:9999;
+	text-align:center;
+}
+
+.menu a {
+	text-decoration: none;
+	top: 8px;
+	padding: 30px; 
+	color: #4d5255;
+	position: relative;
+	display: inline;
+	text-align:center;
+	}
+		/*Kjo eshte ngjyra permi menu kur te shkon mausi*/
+.menu :hover{
+	color: #009ddb;
+	}
+	
+	
+	
+	
+	
+	.main {
+		width:960px;
+	 background-repeat: no-repeat;
+  
+    background-position: center center;
+    margin: 8px auto 0px auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+/* Forma per regjistrim*/
+
+	form.register{
+    width:920px;
+    margin: 20px auto 0px auto;
+    height:930px;
+	
+    background-color:#F7F7F7;
+    padding-left:60px;
+}
+form p{
+    font-size: 12pt;
+    clear:both;
+    margin: 0;
+    color:gray;
+    padding:4px;
+}
+form.register fieldset.row1
+{
+    width:900px;
+    padding:5px;
+    float:center;
+    border:1px solid #8B8B8B;
+    margin-bottom:15px;
+}
+form.register fieldset.row1 label{
+    width:140px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register fieldset.row2
+{
+    border:1px solid #8B8B8B;
+    
+    height:220px;
+    padding:5px;
+    float:left;
+}
+form.register fieldset.row3
+{
+    border:1px solid #8B8B8B;
+    padding:5px;
+    float:left;
+    margin-bottom:15px;
+    width:400px;
+}
+form.register fieldset.row4
+{
+    border:1px solid #8B8B8B;
+    
+    padding:5px;
+    float:left;
+    clear:both;
+    width:500px;
+}
+form.register .infobox{
+    float:right;
+    margin-top:20px;
+    border: 1px solid #F1F1F1;
+    padding:5px;
+    width:380px;
+    height:98px;
+    font-size:9px;
+    background: #FDFEFA url(../img/bg_infobox.gif) repeat-x top left;
+}
+form.register legend
+{
+    color: #39F;
+    padding:2px;
+    margin-left: 14px;
+    font-weight:bold;
+    font-size: 16px;
+    font-weight:100;
+}
+form.register label{
+    color:#444;
+    width:98px;
+    float: left;
+    text-align: right; /*orientimi i tekstit*/
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register label.optional{
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+    color: #666;
+}
+form.register label.obinfo{
+    float:right;
+    padding:3px;
+    font-style:italic;
+}
+form.register input{
+    width: 140px;
+    color: #505050;
+    float: left;
+    margin-right: 5px;
+	font-family:fonti2;
+}
+form.register input.long{
+    width: 247px;
+    color: #505050;
+}
+form.register input.short{
+    width: 40px;
+    color: #505050;
+}
+form.register input[type=radio]
+{
+    float:left;
+    width:15px;
+}
+form.register label.gender{
+    margin-top:-1px;
+    margin-bottom:2px;
+    width:34px;
+    float:left;
+    text-align:left;
+    line-height:19px;
+}
+form.register input[type=text]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+form.register input[type=password]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+.button
+{
+    background:#069;
+    padding: 8px 10px 8px;
+    color: #fff;
+    text-decoration: none; /*nuk ka afare dekorime*/
+   
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	-ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+	transform:scale(1.1,1.1);
+
+    cursor: pointer;
+    float:left;
+    font-size:18px;
+    margin:10px;
+}
+form.register input[type=text].year
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+    width:30px;
+}
+form.register input[type=checkbox] {
+    width:14px;
+    margin-top:4px;
+}
+form.register select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+form.register select.date
+{
+    width: 40px;
+}
+input:focus, select:focus{
+    background-color: #efffe0;
+}
+p.info{
+    font-size:7pt;
+    color: gray;
+	text-shadow: 5px 5px 5px #333;
+}
+p.agreement{
+    margin-left:15px;
+}
+p.agreement label{
+    width:390px;
+    text-align:left;
+    margin-top:3px;
+}
+
+
+
+footer {
+	padding-top:25px;
+	height:50px;
+	font-size:17px;
+	position:relative;
+   bottom:0;
+   width:100%;
+   text-align:center;
+   
+}

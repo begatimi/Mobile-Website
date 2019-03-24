@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="Home/logohome.png" type="image/png"/>
+<link rel="stylesheet" type="text/css" href="register/register.css" />
+<meta name="author" content="Aridon Guri, Alzan Jerliu, Arberie Burrmiku, Vjose Shehu, Festim Hisenaj">
+<meta name="register" content="Web page of puzzel">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Register </title>
+<script src="jquery-1.11.2.min.js" ></script>
+<script>
+$(document).ready(function(){
+  $("#verejtja").click(function(){
+    $("#p1").hide("slow",function(){
+      alert("Warning was ignored!");
+    });
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#p1").mouseup(function(){
+    alert("You are obliged to fill fields with star");
+  });
+});
+</script>
+<style>
+@font-face {
+	font-family:fonti2;
+	src:url(Fonts/DINPro-Light_13935.ttf);
+}
+	
+</style>
+</head>
+
+<body>
+<div id="container">
+<div class="main">
+<form action="MAILTO:aridonguri@hotmail.com" method="get" enctype="text/plain" class="register">
+    <!--Ketu kemi perdorur tagun h2 per tituj-->
+    <fieldset class="row1"><!--Ktu kemi tagun fieldset icili na lejon qe formen ta ndajme ne sektor-->
+    <legend>Account Details</legend><!--Tagu legend eshte tag pershkrues i formes perkatesisht sektorit te caktuar te saj-->
+    <p>
+    <label>E-mail * 
+    </label><!--Ketu me tagun label kemi perdorur se qka eshte kjo hapsire-->
+    <input type="email" name="e-mail" autocomplete="on"/><!--Ketu e kemi caktuar tipin e te dhenave qe futen aty me atributin type-->
+    <label>Repeat e-mail
+    </label>
+    <input type="email" name="e-mail" autocomplete="on" />
+    </p>
+    <p>
+    	<label>Password *
+        </label>
+        <input type="password" name="psw" /><!--Ketu kemi perdorur atributin type per te caktuar tipin e password-->
+        <label>Repeat password
+        </label>
+        <input type="password" name="psw" />
+        <label class="obinfo"><b>*Obliged</b>
+        </label>
+        </p>
+        </fieldset>
+        
+        <fieldset class="row2">
+        		<legend>Personal Information</legend>
+                <p>
+                <label>Emri *
+                </label>
+                <input type="text" class="long" /><!--Ketu pos tjerash kemi perdorur sel klase per te treguar sa i gjat mund te jete teksti-->
+                </p>
+                <p>
+                <label>Telephone *
+                </label>
+                <input type="text" maxlength="10" />
+                </p>
+                <p>
+                <label class="optional">Street
+                </label>
+                <input type="text" class="long" value="Xhevat Rugi" disabled/>
+                </p>
+                <p>
+                <label>Contry</label>
+                <input name="Contry" list="Contry" />
+                <datalist id="Contry">
+                	<option value="Kosovo">
+                    <option value="Albania">
+                    <option value="Serbia">
+                    <option value="Etc">
+                </datalist>
+                </p>
+                <p>
+                <label class="optional">You're webpage
+                </label>
+                <input class="long" type="text" value="http://" />
+                </p>
+                <p id="demo" ></p>
+                <script>
+				if(new Date().getHours()<12){
+					document.getElementById("demo").innerHTML="Good day";
+			
+				}
+				else {
+					document.getElementById("demo").innerHTML="Good evening";
+				}
+				</script>
+                <p id="dita"></p>
+                <script>
+				var day;
+					switch (new Date().getDay()) {
+						case 0:
+							day = "Sunday";
+							break;
+						case 1:
+							day = "Monday";
+							break;
+						case 2:
+							day = "Tuesday";
+							break;
+						case 3:
+							day = "Wednesday";
+							break;
+						case 4:
+							day = "Thursday";
+							break;
+						case 5:
+							day = "Friday";
+							break;
+						case  6:
+							day = "Saturday";
+							break;
+					}
+					document.getElementById("dita").innerHTML = "Today is " + day;
+				
+				</script>
+                
+                </fieldset>
+                
+                
+                <fieldset class="row3">
+                <legend>Additional information</legend>
+                <p>
+                <label>Gender *</label>
+                <input type="radio" name="gender" value="male" /><!--Ketu me ane te atributit type kemi caktuar radio butonat-->
+                    <label class="gender">M</label>
+                <input type="radio" name="gender" value="female" />
+                <label class="gender">F</label>
+                </p>
+                <p>
+                <label>Birthday *
+                </label>
+                <select class="date">
+                <option value="1">01
+                </option>
+                <option value="2">02
+                        </option>
+                        <option value="3">03
+                        </option>
+                        <option value="4">04
+                        </option>
+                        <option value="5">05
+                        </option>
+                        <option value="6">06
+                        </option>
+                        <option value="7">07
+                        </option>
+                        <option value="8">08
+                        </option>
+                        <option value="9">09
+                        </option>
+                        <option value="10">10
+                        </option>
+                        <option value="11">11
+                        </option>
+                        <option value="12">12
+                        </option>
+                        <option value="13">13
+                        </option>
+                        <option value="14">14
+                        </option>
+                        <option value="15">15
+                        </option>
+                        <option value="16">16
+                        </option>
+                        <option value="17">17
+                        </option>
+                        <option value="18">18
+                        </option>
+                        <option value="19">19
+                        </option>
+                        <option value="20">20
+                        </option>
+                        <option value="21">21
+                        </option>
+                        <option value="22">22
+                        </option>
+                        <option value="23">23
+                        </option>
+                        <option value="24">24
+                        </option>
+                        <option value="25">25
+                        </option>
+                        <option value="26">26
+                        </option>
+                        <option value="27">27
+                        </option>
+                        <option value="28">28
+                        </option>
+                        <option value="29">29
+                        </option>
+                        <option value="30">30
+                        </option>
+                        <option value="31">31
+                        </option>
+                    </select>
+                     <select>
+                        <option value="1">Janary
+                        </option>
+                        <option value="2">February
+                        </option>
+                        <option value="3">March
+                        </option>
+                        <option value="4">April
+                        </option>
+                        <option value="5">May
+                        </option>
+                        <option value="6">June
+                        </option>
+                        <option value="7">July
+                        </option>
+                        <option value="8">August
+                        </option>
+                        <option value="9">September
+                        </option>
+                        <option value="10">October
+                        </option>
+                        <option value="11">November
+                        </option>
+                        <option value="12">December
+                        </option>
+                    </select>
+                    <input class="year" type="text" size="4" max="4" />ex. 1994
+                    </p>
+                    <p>
+                    <label>Nationality
+                    </label>
+                  
+                    <input name="Nacionaliteti" list="Nacionaliteti"/>
+                    
+             
+                    <datalist id="Nacionaliteti">
+                    <option value="Kosovan">
+                     <option value="Albanian">
+                    </option>
+                    <option value="Serbian">
+                    </option>
+                    <option value="Etc...">
+                    </option>
+                    </datalist>
+                 
+                   
+                  
+                    </p>
+                    <p>
+                    	<label>Child? *
+                        </label>
+                        <input type="checkbox" value="" /><!--Ktu kemi atributin type kemi caktuar checkboxi-->
+                        </p><br />
+                        <div><legend><b>Be careful !!!</b>
+                        <p id="p1">* Warning(Click to read) !</p>
+       					 <p id="verejtja">Click to ignore Warning!</p>
+                        </legend>
+                        	<ol type="1"><!--Ketu kemi perdorur list te rendituar-->
+                            <li> All data you provide here will be saved with a special care for the needs of the website only.</li>
+                            <li> If you think that these requirements violate your right to privacy please make the right decision, otherwise clicking on the button "accept" you officially have accepted that we have access to this data.</li>
+                            <li>Time and date of the meeting will be taken as part of the agreement between our webpage and client.</li>
+                        <li> <p id="koha">The exact time</p>
+                        <script>document.getElementById("koha").innerHTML = Date();
+						<!--Ketu kemi perdorur funksionin date nga javascript-->
+						</script>
+                        </li>
+                        <li><p id="moti"></p>
+                        <script>
+						document.getElementById("moti").innerHTML = "The temperature today is " + toCelsius(77) + "Celsius";
+						function toCelsius(fahrenheit)
+						{
+							return(5/9)*(fahrenheit-32);
+						}
+						</script>
+                        </li>
+                        <li>
+                        <p id="stringu"></p>
+                        <script>
+						var nr=25;
+							document.getElementById("stringu").innerHTML= "25 "  + "in Binary: " + neString(nr);
+						function neString()
+						{
+							return nr.toString(2) + "   |||    in Exponential   " + nr.toExponential();
+							};
+						</script>
+                        </li>
+                        
+                        <li>
+                        <p id="nani"></p>
+                        <script>
+						
+						document.getElementById("nani").innerHTML=450/"iruG" + " "+ konstantet();
+						function konstantet()
+						
+						{
+							return Math.PI + " ---approximate value--- "+Math.floor(3.14) ;
+							};
+						document.getElementById("max").innerHTML= Number.MAX_VALUE;
+						</script>
+                        </li>
+                        </ol>
+                        </div>
+                        </fieldset>
+                        <fieldset class="row4">
+                        <legend>admission
+                        </legend>
+                        <p class="agreement">
+                        	<input type="checkbox" value="" />
+                            <label> * you agree to our Terms and that you have read our Data Policy, including our Cookie Use.
+                            </label>
+                            </p>
+                            </fieldset>
+                            
+                        <div><button type="submit" class="button">Register &raquo;</button>
+                        </div><!--Ketu kemi perdorud button dhe entitete-->
+                    </form>
+                   </div>
+
+
+
+
+
+
+
+
+
+<!--Footeri i faqees-->
+<footer>
+<b><p id="teksti"></p></b>
+<script>
+var skema= {
+			teDrejtat:"Copyight ©",
+			viti:"2015",
+			teksti:"All rights reserved."	
+};
+	document.getElementById("teksti").innerHTML = skema.teDrejtat+ " " + skema.viti + " " + skema.teksti;
+</script>
+
+
+</footer><!--Ketu perfundon footeri-->
+
+
+
+
+
+
+
+
+
+
+</div><!--Mbyllet Container-->
+</body>
+</html>

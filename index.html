@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="Home/logohome.png" type="image/png"/>
+<link rel="stylesheet" type="text/css"  href="style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PuzZel</title>
+<script src="jquery-1.11.2.min.js" ></script>
+
+</script>
+<script>
+$(document).ready(function(){
+	var d = new Date();
+	var n = d.getHours();
+	if (n > 21 || n < 6)
+	  document.body.className = "night";
+	else
+ 		document.body.className = "day";
+
+	 
+	 
+});
+
+
+</script>
+<script>
+		$(function() {
+		
+			$("#slideshow > div:gt(0)").hide();  /*i fsheh te gjitha fotot perpos fotos se pare */
+	
+			setInterval(function() {    /*na eshte nevojitur nje setInterval me an te se cilit duhet te ndrrohen fotot */
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)           /*Kemi perdorur fade out per te shuar foton e tanishme */
+			    .next()
+			    .fadeIn(1000)            /* Kemi perdorur fade in per te shfaqur foton tjeter */
+			    .end()
+			    .appendTo('#slideshow');    /* e tera kjo procedur te perfundoj per kaq miliseknda */
+			},  3000);
+			
+		});
+	</script>
+    <script>
+  $(document).ready(function(){
+    $('.img-zoom').hover(function() {
+        $(this).addClass('transition');
+ 
+    }, function() {
+        $(this).removeClass('transition');
+    });
+  });
+</script>
+
+</head>
+
+<body>
+//<SCRIPT LANGUAGE="JavaScript"><!--Ketu kemi perdorur nje javascript i cili ndalon qasjen me tastin e djatht nga perdoruesi -->
+var message="Acess denied!!!";
+
+function clickIE() {if (document.all) {alert(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {alert(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+document.oncontextmenu=new Function("return false")
+ 
+</script>
+<div id="container">
+
+<header>
+<div class="menu">
+			<nav>
+				<a href="index.html">
+					Home
+				</a>
+				<a href="samsung.html">
+					Samsung
+				</a>
+				<a href="apple.html">
+					Apple
+				</a>
+                <a href="htc.html">
+					H T C
+				</a>
+                <a href="vs.html">
+					V S
+				</a>
+                <a href="contact.html">
+					Contact
+				</a>
+                <a href="register.html">
+					Register
+				</a>
+                </nav>
+			
+            </div> <!--mbyllet klasa menu-->
+            </header>
+            <div id="slideshow">
+   
+   
+   <div>
+     <img src="Samsung/Samsung-Galaxy-S6-1920x1080-003.jpg"  width="100%" height="450">
+   </div>
+   <div>
+     <img  src="Iphone/maxresdefault.jpg" width="100%" height="450">
+   </div>
+   
+   <div>
+     <img  src="Iphone/iPhone6S_05-withlogo.jpg" width="100%" height="450">
+   </div>
+   <div>
+     <img src="htc/HTC-One-A9-01.png"  width="100%" height="450">
+   </div>
+    <div>
+     <img src="Samsung/Samsung-Galaxy-S6-1920x1080-004.jpg"  width="100%" height="450">
+   </div>
+   <div>
+     <img src="htc/HTC-One-M8-image.jpg" width="100%" height="450">
+   </div>
+    
+  
+   </div>
+            </div>
+            
+            <div class="slajdet">
+            	<div id="slideshow1">
+                
+                      <div class="slajdetbrenda">
+                              <a href="samsung.html">
+                            <img src="Samsung/a.jpg" alt="samsung S6" width="350" height="180" border="0"/>
+                            </a>
+                              <h2>Samsung S6</h2>
+                            </div>
+                            
+                </div>
+                <div id="slideshow2">
+                <div class="slajdetbrenda">
+                              <a href="apple.html">
+                            <img src="Iphone/1.jpg" alt="iPhone 6s" width="350" height="180" border="0"/>
+                            </a>
+                              <h2>iPhone 6s</h2>
+                            </div>
+                </div>
+                <div id="slideshow3">
+                <div class="slajdetbrenda">
+                              <a href="htc.html">
+                            <img src="htc/451.jpg" alt="HTC One" width="350" height="180" border="0"/>
+                            </a>
+                              <h2>HTC One</h2>
+                            </div>
+                </div>
+  </div>
+
+<!--Footero i faqees-->
+
+<footer>
+<!--<div class="fDjathtas"><h3>Official Page:</h3>
+
+<ul>
+  <li><a href="http://www.samsung.com/" target="_blank" style="text-decoration:none; color:black;">Samsung</a></li>
+  <li><a href="http://www.apple.com/"  target="_blank" style="text-decoration:none; color:black;">Apple</a>
+  <li><a href="http://www.htc.com"  target="_blank" style="text-decoration:none; color:black;">Htc</a>
+</ul>
+</div>
+-->
+<div id="fMajtas">Copyright 2015-2016 <b>PuzZel</b>.<br /> All rights reserved.</div>
+
+</footer><!--Ktu perfundon footeri-->
+
+
+</div><!--Mbyllet Container-->
+</body>
+</html>

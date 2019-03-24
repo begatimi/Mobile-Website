@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+}
+
+#container {
+	width:100%;
+	margin:0px;
+	
+}
+
+header {
+	text-align:center;
+	position:relative;
+}
+.menu {
+	width:100%;
+	height:40px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-color:#fff;
+	box-shadow: -1px 0px 9px 0px rgba(0,0,0,075);
+	z-index:9999;
+	text-align:center;
+}
+
+.menu a {
+	text-decoration: none;
+	top: 8px;
+	padding: 30px; 
+	color: #4d5255;
+	position: relative;
+	display: inline;
+	text-align:center;
+	}
+		/*Kjo eshte ngjyra permi menu kur te shkon mausi*/
+.menu :hover{
+	color: #009ddb;
+	}
+	
+	.main {
+	
+	    background-repeat: no-repeat;
+		
+    background-position: center center;
+    margin: 8px auto 0px auto;
+    position: relative;
+    z-index: 1;
+	}
+	.DandD{
+	text-align:center;
+	position:relative;
+	width:920px;
+	margin:525px auto auto auto;
+	
+	
+	
+}
+#div1, #div2
+{float:left;
+ width:200px;
+  height:70px;
+   margin:10px 5px auto 155px;
+   padding:10px;
+  
+   border:1px solid black}
+	
+	.stat {
+		position:relative;
+		width:920px;
+		height:500px;
+	
+		margin:auto;
+
+
+	}
+	
+	
+	#stat1 {
+
+		background-position:left top;
+		width:920px;
+		height:500px;
+		background-image:url(sdfsd.png);
+		margin:auto;
+		margin:auto auto  auto -120px;
+	
+		background-repeat:no-repeat;
+	}
+	#stat2 {
+
+		background-position:right top;
+		margin:auto -185px auto auto;
+
+		width:920px;
+		height:500px;
+		background-image:url(dfsdf.png);
+		background-repeat:no-repeat;
+	}
+	
+	.camera {
+		margin:auto auto auto auto;
+		width:100%;
+		height:420px;
+		background-repeat:no-repeat;
+		background-image:url(461734-galaxy-s6-camera-comparison-story.jpg) ;
+		background-color:#7AC7BF;
+		background-position:center top;
+		border:5px solid #363;
+		
+		
+	}
+
+	
+	
+	
+	.hs {
+		margin:-25px auto auto auto;
+		width:100%;
+		height:700px;
+		background-repeat:no-repeat;
+	
+		background-color:#369;
+		background-position:center;
+		background-origin:border-box;
+		border:5px solid black;
+	}
+	.hs1 {
+		margin:auto;
+		width:100%;
+		height:500px;
+		background-repeat:no-repeat;
+		background-image:url(Home-screen.png);
+		background-position:center;
+		padding-bottom:90px;
+	}
+	#hss {
+		margin:auto;
+		text-align:center;
+	}
+	.ls{
+		margin:-25px auto auto auto;
+		width:100%;
+		height:700px;
+		background-repeat:no-repeat;
+	
+		background-color:#096;
+		background-position:center;
+		border:5px solid black;
+	}
+	.ls1 {
+		margin:auto;
+		width:100%;
+		height:500px;
+		background-repeat:no-repeat;
+		background-image:url(4561.png);
+		background-position:center;
+		padding-bottom:90px;
+		background-origin:border-box;
+	
+		
+	}
+	#lss {
+		margin:auto;
+		text-align:center;
+	}
+	.qk{
+		margin:-25px auto auto auto;
+		width:100%;
+		height:640px;
+		background-repeat:no-repeat;
+	
+		background-color:#066;
+		background-position:center;
+		border:5px solid black;
+	
+	}
+	.qk1 {
+		margin:auto;
+		width:100%;
+		height:500px;
+		background-repeat:no-repeat;
+		background-image:url(wuksas1.png);
+		background-position:center;
+		padding-bottom:90px;
+			background-origin:content-box;
+	}
+	#qkk {
+		margin:auto;
+		text-align:center;
+	}
+	.video{
+		margin:auto auto auto auto;
+		width:100%;
+		height:auto;
+		background-color:#099;
+	
+
+		
+	}
+	#video1 {
+		position:relative;
+		width:920px;
+		height:auto;
+		text-align:center;
+		margin:auto auto auto auto;
+		border:1px solid #099;
+	
+		
+		
+	}
+	#videotext {
+		position:relative;
+		text-align:center;
+		margin:auto auto auto auto;
+		
+		
+			}
+			#video2 {
+		position:relative;
+		width:920px;
+		height:auto;
+		text-align:center;
+		margin:auto auto auto auto;
+		border:1px solid #099;
+	
+		
+		
+	}
+	#videotext2 {
+		position:relative;
+		text-align:center;
+		margin:auto auto auto auto;
+		
+		
+			}
+			#video3 {
+		position:relative;
+		width:920px;
+		height:auto;
+		text-align:center;
+		margin:auto auto auto auto;
+		border:1px solid #099;
+	
+		
+		
+	}
+	#videotext3 {
+		position:relative;
+		text-align:center;
+		margin:auto auto auto auto;
+		
+		
+			}
+			.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:0px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	opacity:0.7;
+	top:600px;
+	transition-duration:1s;
+	right:-5px;
+	display:none;
+	background:url(../Home/butoniST1.png) no-repeat 0px 20px;
+	z-index:99999;
+	clear:both;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+	transition-duration:1s;
+	opacity:1;
+}
+	
+	footer {
+		width:100%;
+	background-color:#CCC;
+	padding-top:20px;
+	height:150px;
+	position:relative;
+   bottom:0;
+  
+   
+   text-align:center;
+   -webkit-animation-name: Prapavija; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+   animation-name: Prapavija;
+    animation-duration: 4s;
+	 -webkit-animation-iteration-count: 5; /* Chrome, Safari, Opera */
+	animation-iteration-count:5;
+   
+}	
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes Prapavija {
+    from {background-color: #666;}
+    to {background-color: #999;}
+	}
+	@keyframes Prapavija {
+		   from{ background-color:#666;}
+		   to{background-color:#999;
+		   }
+		   
+	
+		   
+
+		   
+		   

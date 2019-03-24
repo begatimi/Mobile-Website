@@ -1,0 +1,309 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+}
+
+#container {
+	width:100%;
+	margin:0px;
+	
+}
+
+header {
+	text-align:center;
+	position:relative;
+}
+.menu {
+	width:100%;
+	height:40px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-color:#fff;
+	box-shadow: -1px 0px 9px 0px rgba(0,0,0,075);
+	z-index:9999;
+	text-align:center;
+}
+
+.menu a {
+	text-decoration: none;
+	top: 8px;
+	padding: 30px; 
+	color: #4d5255;
+	position: relative;
+	display: inline;
+	text-align:center;
+	}
+		/*Kjo eshte ngjyra permi menu kur te shkon mausi*/
+.menu :hover{
+	color: #009ddb;
+	}
+	
+	
+	
+
+.main {
+	
+	    background-repeat: no-repeat;
+    background-size: 100% 765px;
+    height: 765px;
+    width: 100%;
+    background-image:url(hero_6s_large.png);
+  
+    background-position: center center;
+    margin: 8px auto 0px auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+#M1 {
+	width:100%;
+	text-align:center;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	color:#666;
+}
+
+
+hr { 
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.telat {
+	width:960px;
+	height:auto;
+
+	margin: auto auto auto auto;
+
+	    color:black;
+		text-align:right;
+}
+.apple {
+     background-image:url(APPLE-iPhone-6-64-GB-Spacegrau-.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    	margin:auto auto auto auto;
+		height:480px;
+
+		  transition-duration:1s;
+  -webkit-transition:1s;
+  -moz-transition:1s; 
+    -o-transition:1s;
+    -ms-transition:1s;
+}
+.apple:hover {
+	
+	  transform:translate(8px,8px);
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+
+	
+	}
+.appH {
+	text-align:right;
+	font-size:48px;
+	color:#000;
+	margin-right:105px;
+}
+
+a.appH:link { text-decoration:none;}
+
+a.appH:visited {text-decoration:none;}
+a.appH:hover  {
+	color:#999;
+text-decoration:none;
+display: inline;
+}
+
+.appH2 {
+	text-align:right;
+	font-size:40px;
+	color:#000;
+	margin-right:85px;
+}
+a.appH2:link { text-decoration:none;}
+
+a.appH2:visited {text-decoration:none;}
+a.appH2:hover  {
+	color:#C96;
+text-decoration:none;
+display: inline;
+}
+.appH3 {
+	text-align:right;
+	font-size:35px;
+	color:#000;
+}
+a.appH3:link { text-decoration:none;}
+
+a.appH3:visited {text-decoration:none;}
+a.appH3:hover  {
+	color:#666;
+text-decoration:none;
+display: inline;
+}
+
+
+
+
+.telat1 {
+	width:960px;
+	height:auto;
+
+	margin: auto auto auto auto;
+		text-align:right;
+}
+#silver {
+     background-image:url(APPLE-iPhone-6-16-GB-Silber-.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    	margin:auto auto auto auto;
+		width:100%;
+		height:587px;
+}
+#gold {
+     background-image:url(APPLE-iPhone-6-64-GB-Gold-.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    	margin:auto auto auto auto;
+		width:100%;
+		height:587px;
+		
+}
+#spacegray {
+     background-image:url(456.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    	margin:auto auto auto auto;
+		width:100%;
+		height:587px;
+}
+
+
+table, td, th {
+	border: 0px solid black;
+	margin:auto auto auto 700px;
+	padding-top:50px;
+}
+th {
+	background-color:#E6E6E6;
+	color:black;
+	text-align:center;
+	padding:10px;
+}
+
+
+.harta {
+	position: relative;
+	text-align:center;
+	width:100%;
+	height:400px;
+	
+
+
+	}
+	.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:0px; 
+	text-align:center; 
+	transition-duration:1s;
+	
+
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	opacity:0.6;
+	top:600px;
+	right:-5px;
+	display:none;
+	background:url(../Home/butoniST1.png) no-repeat 0px 20px;
+	z-index:99999;
+	clear:both;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+	opacity:1;
+	transition-duration:1s;
+}
+
+
+footer {
+	background-color:#CCC;
+	padding-top:20px;
+	height:200px;
+	position:relative;
+   bottom:0;
+   margin-top:-65px;
+   width:100%;
+   text-align:center;
+   
+}
+
+#fMajtas {
+	text-align:left;
+	position:relative;
+	margin-top:-20px;
+	margin-left:40px;
+	color:black;
+}
+
+	.fSocial {
+		float:right;
+		margin-top:-5px;
+		text-align:right;
+		margin-right:40px;
+		
+		
+	}
+	.fSocial li {
+		display:inline;
+		padding:10px;
+	}
+	.fSocial span {
+		margin-top:-20px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

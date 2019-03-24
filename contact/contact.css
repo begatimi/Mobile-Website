@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family:corbel;
+	background-image:url(../Home/back.png);
+}
+
+#container {
+	width:100%;
+	margin:0px;
+	
+}
+
+header {
+	text-align:center;
+	position:relative;
+}
+.menu {
+	width:100%;
+	height:40px;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-color:#fff;
+	box-shadow: -1px 0px 9px 0px rgba(0,0,0,075);
+	z-index:9999;
+	text-align:center;
+}
+
+.menu a {
+	text-decoration: none;
+	top: 8px;
+	padding: 30px; 
+	color: #4d5255;
+	position: relative;
+	display: inline;
+	text-align:center;
+	}
+		/*Kjo eshte ngjyra permi menu kur te shkon mausi*/
+.menu :hover{
+	color: #009ddb;
+	}
+	
+	.main {
+	
+	    background-repeat: no-repeat;
+  
+    background-position: center center;
+    margin: 8px auto 0px auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+	
+
+/*Forma per kontakt*/
+	
+	form.contact {
+		width:920px;
+		margin:-83px auto 0px auto;
+		height:860px;
+		background-color:#CCC;
+		padding-left:60px;
+		padding-top:20px;
+
+	}
+	form h1{
+		color:#036;
+		margin-top:28px;
+		padding-top:25px;
+	}
+	form.contact label {
+		 width:140px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:15px;
+	font-size:20px;
+	}
+	
+	form.contact input {
+		 width: 180px;
+    color: #505050;
+    float: left;
+    margin-right: 5px;
+	margin-top:15px;
+	}
+	form.contact input[type=text] {
+		border-radius:5px 0px 5px 0px;
+   
+    border: 1px solid #E1E1E1;
+    height: 25px;
+	 }
+	 form.contact input[type=email] {
+		 border-radius:5px 0px 5px 0px;
+		 border: 1px solid #E1E1E1;
+    height: 25px;
+	 }
+	 
+	 form.contact input[type=tel] {
+		 border-radius:5px 0px 5px 0px;
+		 border: 1px solid #E1E1E1;
+    height: 25px;
+	 }
+	 form.contact input[type=file] {
+		 border-radius:5px 0px 5px 0px;
+		 border: 1px solid #E1E1E1;
+    height: 20px;
+	background-color:#666;
+	background-color:#8A9999;
+			border:none;
+			color:white;
+			text-align:center;
+			text-decoration:none;
+			display:inline-block;
+			font-size:12px;
+
+	 }
+ keygen {
+	
+		 border-radius:5px 0px 5px 0px;
+		 border: 1px solid #E1E1E1;
+    height: 25px;
+	background-color:#666;
+	background-color:#8A9999;
+			border:none;
+			color:white;
+			text-align:center;
+			text-decoration:none;
+			display:inline-block;
+			font-size:12px;
+	
+	
+	
+	 }
+	 
+	
+	  form.contact input[list=Country]
+	  {
+		  border-radius:5px 0px 5px 0px;
+		  border: 1px solid #E1E1E1;
+    height: 25px;
+	
+	  }
+	  form.contact textarea {
+		  border-radius: 15px 30px;
+		  resize:none;
+		  
+		  width:510px;
+		  height:140px;
+		  margin-top:20px;
+		  border: 1px solid #E1E1E1;
+	  }
+	  form.contact button {
+		  width:100px;
+		  height:50px;
+		  float:right;
+		  margin-right:257px;
+		  margin-top:4px;
+		  	transform:rotateX(30deg);
+			background-color:#8A9999;
+			border:none;
+			color:white;
+			text-align:center;
+			text-decoration:none;
+			display:inline-block;
+			font-size:18px;
+		
+	  }
+	   form.contact iframe {
+		   width:980px;
+		   height:174px;
+		   margin-left:-60px;
+		   padding-top:47px;
+	   }	
+	
+	   
+	
+	
+	footer {
+		background-color:#666;
+		padding-top:30px;
+	height:215px;
+	position:relative;
+   bottom:0;
+   width:100%;
+   text-align:center;
+   
+}
